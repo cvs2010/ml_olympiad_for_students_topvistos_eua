@@ -2,7 +2,7 @@
 
 ## Passo-a-passo sugerido pelos instrutores:
 
-- 1 - Métrica F1 Score = a métrica utilizada será o F1- Score. Vai depender de definir o ponto de corte, primeiramente deve otimizar o ROC AOC, pq assim vc otimiza sua performance em vários pontos de corte. Então se você otimiza essa métrica, automaticamente você otimizará o F1 Score.
+- 1 - Métrica F1 Score = a métrica utilizada será o F1- Score. Vai depender de definir o ponto de corte, primeiramente deve otimizar o ROC AUC, pq assim vc otimiza sua performance em vários pontos de corte. Então se você otimiza essa métrica, automaticamente você otimizará o F1 Score.
   - O F1 Score é uma métrica comumente usada para avaliar a precisão de um modelo de classificação binária, considerando tanto a precisão quanto a taxa de verdadeiros positivos. O instrutor sugere otimizar a área sob a curva ROC (ROC AUC) para obter um bom desempenho em vários pontos de corte. Ao otimizar a ROC AUC, espera-se que o F1 Score também seja otimizado.
 
 - 2 - Ache o ponto de corte ideal (não necessariamente será 50%)
